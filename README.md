@@ -15,11 +15,34 @@ earthquakedata.csv -> Dataset used for project
 
 SC1015 Earthquake Prediction.pptx -> Presentation slides used for video presentation
 
+Link to video presentation -> https://www.youtube.com/watch?v=JG0fVuyGdk0
+
 ## Team Members for C133 Team 4
 
-Lee Min Han (U2222834A)
-Ravipudi Abhijeet Chowdary (U2220816C)
+Lee Min Han (U2222834A) 
+
+Ravipudi Abhijeet Chowdary (U2220816C) 
+
 Leong Ling Min Fernando (U2220587L)
+
+## Models Used 
+
+1. K-Means Clustering Model
+2. Hierarchical Clustering Model
+
+## Conclusion
+
+- Heuristic approach to determine probability of earthquake has limitations 
+- Closer to centroid of cluster, higher probability of earthquake
+- In our case, K-Means Clustering model better than Hierarchical Clustering model in predicting earthquake after using average prediction error as a performance metric
+- Proposed another solution which would be more accurate as it calculates the probability using the number of earthquakes in a radius around it divided by total number of earthquakes
+
+## Things learnt from project
+
+- How to do K-Means and Hierarchical Clustering
+- How to determine optimal number of clusters using elbow method and dendrogram
+- Splitting data into train and test set and using average prediction error to test the performance of clustering model
+- Cartopy, geopy
 
 ## References
 
